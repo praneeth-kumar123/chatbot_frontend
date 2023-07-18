@@ -1,0 +1,40 @@
+/* .stageMaster article{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-basis: 80%;
+    justify-content: space-between;
+} */
+.stageMaster{
+    display: flex;
+    width: 1080px;
+    flex-basis: 100%;
+    height: 100px;
+}
+.stageMaster article{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin: 20px 35px;
+}
+.stageMaster article div button{
+    background-color: rgb(38, 38, 243);
+    width: 130px;
+    height:40px;
+    border-radius: 5px;
+    color: white;
+    font-size: bold;
+    border: none;
+    outline: none;
+}
+
+.stageMaster article div:nth-child(2) input{
+    border:0;
+    outline: 0;
+    border-bottom: 1px solid rgb(165, 161, 161);
+    border-radius: 3px;
+    width: 400px;
+    background-color:white;
+    height: 40px;
+    font-size: 1.4rem;
+}
