@@ -6,6 +6,7 @@ const ChatBotMain = () => {
     return (
         <section id="userBlock">
                 <article>
+                    <h1>hello</h1>
                     <LeftComponent/>
                     <RightHeaderComponent/>
                 </article>
